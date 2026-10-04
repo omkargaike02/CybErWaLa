@@ -34,17 +34,18 @@ apt-get -y install php wget unzip
 
 ## Installation
 
-\`\`\`
+
 git clone https://github.com/omkargaike02/CybErWaLa
+
 cd CybErWaLa
+
 bash cyberwala.sh
-\`\`\`
+
 
 ## Cleanup
 
-\`\`\`
 bash cleanup.sh
-\`\`\`
+
 
 This removes all captured camera files, saved locations, and log files.
 
